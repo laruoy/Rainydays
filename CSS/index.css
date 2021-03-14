@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #171b26;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+footer {
+    background-color: #5D5C61;
+}
+
+img {
+    max-width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+body {
+    background-image: url(../images/background.jpg);/*I want to change the opacity on the background image only, but I do not how to do that, without effecting the navigatin bar and the logo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    /* I tried to add grid, but it did not work, so I need some help.
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    'header header'
+    'body body'
+    'footer footer'
+    ;*/
+
+/*header, body, footer {
+    background-image: url(../images/background.jpg);    
+}*/
+
+/*header{grid-area: header;}
+body{grid-area: body;}
+footer{grid-area: footer;}*/
+
+.logo {
+    max-width: 250px;
+    cursor: pointer;
+}
+
+nav, #hamburger-menu {
+    display: none;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #171b26;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #7395ae;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #b1a296;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.current {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.hamburger-label{
+    float: right;
+    color: #171b26;
+    padding: 10px;
+    font-size: 1.5em;
+    display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+@media(min-width: 600px) {
+    .logo {
+        float: left;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    .hamburger-label {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding: 19% 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
