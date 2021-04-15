@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 *{
@@ -26,3 +27,33 @@
     width: 25%;
 }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.gallery {
+    border: 1px solid #171b26;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.des {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+>>>>>>> b49cfa19f2369feceb9c4ab9b68ed3a17b5f0ea2
