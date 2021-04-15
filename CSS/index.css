@@ -47,7 +47,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-button {
+.cta {
     padding: 9px 25px;
     background-color: #b1a296;
     border: none;
