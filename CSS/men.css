@@ -8,6 +8,8 @@
     border: 1px solid #171b26;
     background-color: whitesmoke;
     margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 .gallery img {
@@ -18,10 +20,13 @@
 .des {
     padding: 15px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 .responsive {
     padding: 0 6px;
-    float: left;
+    display: flex;
     width: 25%;
+    float: left;
 }
