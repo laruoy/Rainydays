@@ -28,6 +28,13 @@
         left: 100px;
         transform: none;
     }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 600px){
