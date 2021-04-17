@@ -59,7 +59,7 @@
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1200px) {
     .content {
         margin: 5px 0;
         width: 90%;
@@ -83,7 +83,7 @@
     }
 } 
 
-@media(max-width: 600px) {
+@media(max-width: 1200px) {
     .responsive{
         width: 50%;
         margin: 6px 0;
@@ -94,5 +94,21 @@
     .responsive{
         width: 50%;
         margin: 6px 0;
+    }
+}
+
+@media(max-width: 1200px) {
+    .row-picture{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1200px) {
+    .column-picture{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
