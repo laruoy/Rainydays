@@ -102,7 +102,6 @@ h2 {
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -182,7 +181,6 @@ ul {
 
 img {
     max-width: 200px;
-    align-items: center;
     clear: both;
 }
 
@@ -209,10 +207,11 @@ body {
     flex-direction: column;
 }
 
-.column-picture {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+.row-picture {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .row-picture::after {
@@ -221,3 +220,10 @@ body {
     clear: both;
 }
 
+.column-picture {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
