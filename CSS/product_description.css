@@ -23,17 +23,6 @@ h1 {
     text-align: center;
 }
 
-.container3 {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-*{
-    box-sizing: border-box;
-}
-
 .gallery {
     border: 1px solid #171b26;
     background-color: whitesmoke;
