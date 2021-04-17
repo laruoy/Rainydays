@@ -170,13 +170,13 @@ ul {
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #379683;
+    color:whitesmoke;
     transition: all 0.3s ease 0s;
 }
 
 .footer-col .social-links a:hover{
     color: #171b26;
-    background-color: #379683;
+    background-color: whitesmoke;
 }
 
 img {
