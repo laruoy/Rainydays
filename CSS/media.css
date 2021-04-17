@@ -71,6 +71,18 @@
     }
 } 
 
+@media(max-width: 800px) {
+    .content {
+        margin: 5px 0;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+} 
+
 @media(max-width: 500px) {
     .content {
         margin: 5px 0;
