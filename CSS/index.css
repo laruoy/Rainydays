@@ -28,11 +28,6 @@ nav, #hamburger-menu {
 
 nav ul {
     padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    clear: both;
 }
 
 nav li {
