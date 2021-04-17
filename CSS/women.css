@@ -8,15 +8,19 @@
     border: 1px solid #171b26;
     background-color: whitesmoke;
     margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 .gallery img {
     width: 100%;
     height: auto;
+    justify-content: space-around;
 }
 
 .des {
     padding: 15px;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
 }
 
@@ -26,13 +30,10 @@
     width: 25%;
 }
 
-.cta {
-    padding: 9px 25px;
-    background-color: #b1a296;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+.cta_img {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
 }
 
 
