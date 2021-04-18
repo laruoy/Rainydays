@@ -40,3 +40,8 @@ a {
 a:hover {
     color: black;
 }
+
+h3 {
+    margin-top: 5px;
+    color: whitesmoke;
+}
