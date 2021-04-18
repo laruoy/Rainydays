@@ -185,7 +185,7 @@ img {
 }
 
 body {
-    background-image: url(../images/Background_Homepage.jpg);/*I want to change the opacity on the background image only, but I do not how to do that, without effecting the navigatin bar and the logo*/
+    background-image: url(../images/Background_Homepage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -226,4 +226,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
 }
