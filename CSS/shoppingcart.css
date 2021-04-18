@@ -94,3 +94,33 @@ h3 {
     border: black;
     border-radius: 5px;
 }
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: black;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container_checkout {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.cta_payment {
+    background-color: #171b26;
+    color: whitesmoke;
+    padding: 10px;
+    border: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
