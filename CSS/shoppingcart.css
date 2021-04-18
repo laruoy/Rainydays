@@ -47,7 +47,8 @@ h1 {
 
 .responsive {
     padding: 0 6px;
-    float: left;
+    display: flex;
+    flex-direction: row;
     width: 25%;
 }
 
